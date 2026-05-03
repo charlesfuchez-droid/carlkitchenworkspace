@@ -1,62 +1,163 @@
 ﻿# Carl Kitchen Workspace
 
-Carl Kitchen est un environnement local de gestion de recettes basé sur **Mealie**, lancé avec **Docker Compose**, exposé via **Caddy**, et accessible depuis une URL locale propre dans **Microsoft Edge**.
+Carl Kitchen Workspace est un environnement local permettant de faire tourner **Carl Kitchen**, une application personnelle de gestion de recettes basée sur **Mealie**.
 
-Le workspace contient :
+Le projet s’appuie sur :
 
-- le moteur applicatif Mealie ;
-- les fichiers Docker ;
-- la configuration Caddy ;
-- les scripts d’import de recettes ;
-- les scripts d’import d’ustensiles ;
-- les images de recettes ;
-- les scripts de lancement Windows ;
-- la documentation projet.
+- **Docker Compose** pour lancer les services ;
+- **Mealie** comme moteur de gestion de recettes ;
+- **Caddy** comme reverse proxy local ;
+- **PowerShell** pour les scripts d’import et de lancement ;
+- **Microsoft Edge** pour ouvrir l’application comme une app Windows ;
+- **Git** pour versionner uniquement la configuration, les scripts et la documentation utile.
 
 ---
 
-## 1. Structure du projet
+## 1. Structure actuelle du workspace
+
+La racine Git du projet est :
 
 ```text
 C:\Docker
-├── README.md
+```
+
+Structure actuelle :
+
+```text
+C:\Docker
+├── .git
 ├── .gitignore
-├── CarlKitchen
-│   ├── bdd-francaise              # ignoré par Git
-│   └── mealie-lab
-│       ├── docker-compose.yml
-│       ├── Caddyfile
-│       ├── .env.example
-│       ├── .env                   # ignoré par Git
-│       ├── data                   # ignoré par Git
-│       ├── backups                # ignoré par Git
-│       ├── custom-brand
-│       ├── scripts
-│       └── carl-kitchen-import
-│           ├── recipes_schema_org_json
-│           ├── recipe_images       # ignoré par Git
-│           ├── mealie-import.config.example.json
-│           ├── mealie-import.config.json   # ignoré par Git
-│           ├── mealie_tools.csv
-│           └── image_manifest.csv
+├── README.md
 │
-└── Appli
-    ├── start-carl-kitchen.ps1
-    ├── CarlKitchenLauncher
-    └── CarlKitchenDesktop
+├── Appli
+│   └── CarlKitchenLauncher
+│
+└── CarlKitchen
+    ├── .gitignore
+    ├── bdd-francaise                  # ignoré par Git
+    ├── mealie_2026.05.02.21.43.07.zip # archive locale ignorée par Git
+    │
+    └── mealie-lab
+        ├── .env.example
+        ├── Caddyfile
+        ├── docker-compose.yml
+        ├── docker-compose_old.yml.txt
+        ├── custom-brand
+        │
+        └── carl-kitchen-import
+            ├── catalogues
+            ├── recipes_schema_org_json
+            ├── recipe_images           # ignoré par Git
+            ├── add_mealie_recipe_image_ascii.ps1
+            ├── add_mealie_recipe_image_v4.ps1
+            ├── carl_kitchen_lot1_preparations_schema_org.json
+            ├── config.sample.json
+            ├── create_mealie_tools.ps1
+            ├── create_mealie_tools_from_openapi.ps1
+            ├── fix_tools_created_as_categories.ps1
+            ├── import_lot1_to_mealie.ps1
+            ├── import_mealie_configurable.ps1
+            ├── inspect_mealie_openapi.ps1
+            ├── mealie-import-state.json # ignoré par Git
+            ├── mealie-import.config.example.json
+            ├── mealie-import.config.json # ignoré par Git
+            ├── mealie-import.log         # ignoré par Git
+            ├── mealie_openapi_endpoints.csv
+            ├── mealie_tools.csv
+            ├── mealie_tools_v3.ps1
+            └── README_*.md
 ```
 
 ---
 
-## 2. Prérequis
+## 2. Rôle des principaux dossiers
 
-Avant de lancer Carl Kitchen, installer :
+### `C:\Docker`
+
+Racine du workspace Git.
+
+Toutes les commandes Git doivent être lancées depuis ce dossier :
+
+```powershell
+cd "C:\Docker"
+
+git status
+git add .
+git commit -m "Message du commit"
+git push
+```
+
+---
+
+### `C:\Docker\CarlKitchen`
+
+Dossier principal du projet Carl Kitchen.
+
+Il contient :
+
+- la stack Mealie ;
+- la base française locale ;
+- les fichiers d’import ;
+- les fichiers de personnalisation ;
+- les anciennes archives locales.
+
+---
+
+### `C:\Docker\CarlKitchen\mealie-lab`
+
+Dossier principal de l’application Mealie.
+
+C’est depuis ce dossier que Docker Compose doit être lancé.
+
+Fichiers principaux :
+
+```text
+docker-compose.yml
+Caddyfile
+.env.example
+docker-compose_old.yml.txt
+custom-brand
+carl-kitchen-import
+```
+
+---
+
+### `C:\Docker\CarlKitchen\mealie-lab\carl-kitchen-import`
+
+Dossier contenant les outils d’import vers Mealie.
+
+Il contient :
+
+- les recettes au format JSON ;
+- les scripts d’import ;
+- les scripts de création d’ustensiles ;
+- les scripts d’upload d’images ;
+- les fichiers CSV utiles ;
+- les README techniques associés aux scripts.
+
+---
+
+### `C:\Docker\Appli\CarlKitchenLauncher`
+
+Dossier prévu pour le futur lanceur Windows de Carl Kitchen.
+
+Objectif :
+
+- lancer Docker Compose ;
+- ouvrir Carl Kitchen dans Edge ;
+- générer éventuellement un `.exe` épinglable à la barre des tâches.
+
+---
+
+## 3. Prérequis
+
+Installer :
 
 - Docker Desktop ;
 - WSL2 ;
+- Git ;
 - PowerShell ;
-- Microsoft Edge ;
-- Git.
+- Microsoft Edge.
 
 Vérifier Docker :
 
@@ -74,7 +175,7 @@ wsl --update
 
 ---
 
-## 3. Configuration du fichier hosts Windows
+## 4. Configuration du fichier hosts Windows
 
 Carl Kitchen utilise une URL locale personnalisée :
 
@@ -82,9 +183,9 @@ Carl Kitchen utilise une URL locale personnalisée :
 http://charles-kitchen.localhost
 ```
 
-Pour éviter les problèmes de résolution DNS locale, ajouter les entrées suivantes au fichier `hosts`.
+Pour que cette URL fonctionne, ouvrir le fichier `hosts` en administrateur.
 
-Ouvrir PowerShell en administrateur, puis lancer :
+Lancer PowerShell en administrateur puis exécuter :
 
 ```powershell
 notepad C:\Windows\System32\drivers\etc\hosts
@@ -98,9 +199,7 @@ Ajouter à la fin du fichier :
 127.0.0.1 carl-kitchen.localhost
 ```
 
-Enregistrer le fichier.
-
-Tester :
+Tester ensuite :
 
 ```powershell
 ping charles-kitchen.localhost
@@ -114,7 +213,7 @@ Résultat attendu :
 
 ---
 
-## 4. Configuration Caddy
+## 5. Configuration Caddy
 
 Le fichier Caddy est situé ici :
 
@@ -122,7 +221,7 @@ Le fichier Caddy est situé ici :
 C:\Docker\CarlKitchen\mealie-lab\Caddyfile
 ```
 
-Configuration cible :
+Configuration recommandée :
 
 ```caddy
 http://localhost {
@@ -146,21 +245,22 @@ Après modification du `Caddyfile`, redémarrer la stack :
 
 ```powershell
 cd "C:\Docker\CarlKitchen\mealie-lab"
+
 docker compose down
 docker compose up -d
 ```
 
 ---
 
-## 5. Lancer Carl Kitchen
+## 6. Lancer Carl Kitchen
 
-Se placer dans le dossier Docker de Mealie :
+Se placer dans le dossier Mealie :
 
 ```powershell
 cd "C:\Docker\CarlKitchen\mealie-lab"
 ```
 
-Lancer la stack :
+Démarrer la stack :
 
 ```powershell
 docker compose up -d
@@ -172,7 +272,7 @@ Vérifier les conteneurs :
 docker ps
 ```
 
-Ouvrir dans le navigateur :
+Ouvrir l’application :
 
 ```text
 http://charles-kitchen.localhost
@@ -180,19 +280,21 @@ http://charles-kitchen.localhost
 
 ---
 
-## 6. Arrêter Carl Kitchen
+## 7. Arrêter Carl Kitchen
 
 ```powershell
 cd "C:\Docker\CarlKitchen\mealie-lab"
+
 docker compose down
 ```
 
 ---
 
-## 7. Redémarrer Carl Kitchen
+## 8. Redémarrer Carl Kitchen
 
 ```powershell
 cd "C:\Docker\CarlKitchen\mealie-lab"
+
 docker compose down
 docker compose up -d
 docker ps
@@ -200,22 +302,23 @@ docker ps
 
 ---
 
-## 8. Voir les logs
+## 9. Voir les logs
 
 Tous les services :
 
 ```powershell
 cd "C:\Docker\CarlKitchen\mealie-lab"
+
 docker compose logs -f
 ```
 
-Service Mealie uniquement :
+Logs Mealie :
 
 ```powershell
 docker compose logs -f mealie
 ```
 
-Service Caddy uniquement :
+Logs Caddy :
 
 ```powershell
 docker compose logs -f caddy
@@ -223,9 +326,9 @@ docker compose logs -f caddy
 
 ---
 
-## 9. Configuration Edge
+## 10. Configuration Microsoft Edge
 
-L’objectif est d’ouvrir Carl Kitchen comme une application dédiée, sans avoir une simple fenêtre navigateur classique.
+L’objectif est d’ouvrir Carl Kitchen comme une application dédiée plutôt que comme un simple onglet navigateur.
 
 ### Option recommandée : installer le site comme application Edge
 
@@ -238,7 +341,7 @@ http://charles-kitchen.localhost
 
 3. Cliquer sur les trois points `...`.
 4. Aller dans **Applications**.
-5. Choisir **Installer ce site en tant qu’application**.
+5. Cliquer sur **Installer ce site en tant qu’application**.
 6. Nommer l’application :
 
 ```text
@@ -247,131 +350,39 @@ Carl Kitchen
 
 7. Épingler l’application à la barre des tâches.
 
-Cette méthode donne un comportement proche d’une application Windows.
-
 ---
 
 ### Option alternative : lancer Edge en mode application
-
-Commande possible :
 
 ```powershell
 Start-Process "msedge.exe" -ArgumentList "--app=http://charles-kitchen.localhost"
 ```
 
-Avec un profil dédié :
+Avec un profil Edge dédié :
 
 ```powershell
 Start-Process "msedge.exe" -ArgumentList "--app=http://charles-kitchen.localhost --user-data-dir=C:\Docker\CarlKitchen\edge-profile"
 ```
 
-Cette option ouvre Carl Kitchen dans une fenêtre dédiée.
-
 ---
 
-## 10. Script de lancement Windows
+## 11. Scripts d’import des recettes
 
-Script recommandé :
-
-```text
-C:\Docker\Appli\start-carl-kitchen.ps1
-```
-
-Exemple de contenu :
-
-```powershell
-$ProjectPath = "C:\Docker\CarlKitchen\mealie-lab"
-$Url = "http://charles-kitchen.localhost"
-
-Write-Host "======================================" -ForegroundColor DarkGray
-Write-Host " Carl Kitchen Launcher" -ForegroundColor Cyan
-Write-Host "======================================" -ForegroundColor DarkGray
-
-if (-not (Test-Path $ProjectPath)) {
-    Write-Host "ERREUR : dossier projet introuvable : $ProjectPath" -ForegroundColor Red
-    pause
-    exit 1
-}
-
-Set-Location $ProjectPath
-
-Write-Host "Démarrage de Docker Compose..." -ForegroundColor Yellow
-docker compose up -d
-
-if ($LASTEXITCODE -ne 0) {
-    Write-Host "ERREUR : Docker Compose n'a pas démarré correctement." -ForegroundColor Red
-    pause
-    exit 1
-}
-
-Write-Host ""
-Write-Host "Conteneurs actifs :" -ForegroundColor Cyan
-docker ps
-
-Write-Host ""
-Write-Host "Ouverture de Carl Kitchen..." -ForegroundColor Green
-Start-Process "msedge.exe" -ArgumentList "--app=$Url"
-
-Write-Host ""
-Write-Host "Carl Kitchen est lancé : $Url" -ForegroundColor Green
-pause
-```
-
-Lancer le script :
-
-```powershell
-& "C:\Docker\Appli\start-carl-kitchen.ps1"
-```
-
----
-
-## 11. Générer un exécutable de lancement
-
-Le dossier du lanceur peut être organisé ainsi :
-
-```text
-C:\Docker\Appli\CarlKitchenLauncher
-├── CarlKitchenLauncher.ps1
-├── icon.ico
-└── CarlKitchen.exe
-```
-
-Installer `ps2exe` :
-
-```powershell
-Install-Module ps2exe -Scope CurrentUser
-Import-Module ps2exe
-```
-
-Générer l’exécutable :
-
-```powershell
-cd "C:\Docker\Appli\CarlKitchenLauncher"
-
-Invoke-ps2exe `
-  -inputFile .\CarlKitchenLauncher.ps1 `
-  -outputFile .\CarlKitchen.exe `
-  -iconFile .\icon.ico `
-  -noConsole
-```
-
-L’exécutable généré peut ensuite être épinglé à la barre des tâches.
-
----
-
-## 12. Import des recettes
-
-Dossier d’import :
+Dossier :
 
 ```text
 C:\Docker\CarlKitchen\mealie-lab\carl-kitchen-import
 ```
 
-Tester la connexion à Mealie :
+Se placer dans le dossier :
 
 ```powershell
 cd "C:\Docker\CarlKitchen\mealie-lab\carl-kitchen-import"
+```
 
+Tester la connexion à Mealie :
+
+```powershell
 .\import_mealie_configurable.ps1 `
   -ConfigPath .\mealie-import.config.json `
   -TestConnection
@@ -403,18 +414,18 @@ Importer toutes les recettes :
 
 ---
 
-## 13. Import des ustensiles
-
-Fichier source :
-
-```text
-mealie_tools.csv
-```
+## 12. Scripts d’import des ustensiles
 
 Script recommandé :
 
 ```text
 mealie_tools_v3.ps1
+```
+
+Fichier source :
+
+```text
+mealie_tools.csv
 ```
 
 Lister les ustensiles :
@@ -446,7 +457,7 @@ Créer ou mettre à jour les ustensiles :
 
 ---
 
-## 14. Ajout des images de recettes
+## 13. Scripts d’ajout des images
 
 Script recommandé :
 
@@ -485,11 +496,9 @@ foreach ($item in $Manifest) {
 
 ---
 
-## 15. Fichiers ignorés par Git
+## 14. Fichiers sensibles ou lourds ignorés par Git
 
-Le repo ne doit pas contenir les données locales, secrets ou fichiers lourds.
-
-Ignorés volontairement :
+Ces éléments ne doivent pas être versionnés :
 
 ```text
 CarlKitchen/bdd-francaise/
@@ -497,15 +506,32 @@ CarlKitchen/mealie-lab/.env
 CarlKitchen/mealie-lab/data/
 CarlKitchen/mealie-lab/backups/
 CarlKitchen/mealie-lab/carl-kitchen-import/mealie-import.config.json
+CarlKitchen/mealie-lab/carl-kitchen-import/mealie-import-state.json
+CarlKitchen/mealie-lab/carl-kitchen-import/mealie-import.log
 CarlKitchen/mealie-lab/carl-kitchen-import/recipe_images/
-*.log
 *.zip
+*.log
 *.exe
 bin/
 obj/
 ```
 
-Versionnés volontairement :
+Raisons :
+
+- `bdd-francaise/` : base externe volumineuse ;
+- `.env` : configuration locale potentiellement sensible ;
+- `data/` : données applicatives locales ;
+- `backups/` : sauvegardes locales ;
+- `mealie-import.config.json` : peut contenir un token API ;
+- `recipe_images/` : images lourdes ou générées ;
+- `*.zip` : archives temporaires ;
+- `*.exe` : fichiers générés.
+
+---
+
+## 15. Fichiers à versionner
+
+Ces éléments doivent rester dans Git :
 
 ```text
 README.md
@@ -514,11 +540,14 @@ CarlKitchen/mealie-lab/docker-compose.yml
 CarlKitchen/mealie-lab/Caddyfile
 CarlKitchen/mealie-lab/.env.example
 CarlKitchen/mealie-lab/carl-kitchen-import/mealie-import.config.example.json
+CarlKitchen/mealie-lab/carl-kitchen-import/config.sample.json
 CarlKitchen/mealie-lab/carl-kitchen-import/recipes_schema_org_json/
+CarlKitchen/mealie-lab/carl-kitchen-import/catalogues/
 CarlKitchen/mealie-lab/carl-kitchen-import/mealie_tools.csv
-CarlKitchen/mealie-lab/carl-kitchen-import/image_manifest.csv
-Appli/start-carl-kitchen.ps1
-Appli/CarlKitchenLauncher/CarlKitchenLauncher.ps1
+CarlKitchen/mealie-lab/carl-kitchen-import/mealie_openapi_endpoints.csv
+CarlKitchen/mealie-lab/carl-kitchen-import/*.ps1
+CarlKitchen/mealie-lab/carl-kitchen-import/README_*.md
+Appli/CarlKitchenLauncher/
 ```
 
 ---
@@ -564,7 +593,7 @@ git check-ignore -v --no-index CarlKitchen/mealie-lab/carl-kitchen-import/mealie
 
 ## 17. Sauvegarde
 
-Les données Mealie ne sont pas versionnées dans Git.
+Git ne remplace pas une sauvegarde.
 
 À sauvegarder à part :
 
@@ -573,6 +602,7 @@ CarlKitchen/mealie-lab/data/
 CarlKitchen/mealie-lab/backups/
 CarlKitchen/mealie-lab/.env
 CarlKitchen/mealie-lab/carl-kitchen-import/mealie-import.config.json
+CarlKitchen/mealie-lab/carl-kitchen-import/recipe_images/
 ```
 
 Exemple de sauvegarde manuelle :
@@ -626,7 +656,7 @@ Voir les logs :
 docker compose logs -f
 ```
 
-Ouvrir le hosts :
+Ouvrir le fichier hosts :
 
 ```powershell
 notepad C:\Windows\System32\drivers\etc\hosts
@@ -664,11 +694,11 @@ Carl Kitchen vise à devenir une application locale personnelle permettant de :
 
 Le projet est en phase de stabilisation.
 
-Les priorités sont :
+Priorités actuelles :
 
-1. stabiliser la structure Git ;
-2. finaliser le `.gitignore` ;
-3. documenter le lancement ;
-4. fiabiliser le launcher Windows ;
-5. sauvegarder les données Mealie ;
-6. continuer la personnalisation Carl Kitchen.
+1. finaliser la structure Git ;
+2. nettoyer les anciennes sauvegardes `.git_OLD_*` ;
+3. fiabiliser le lancement via `CarlKitchenLauncher` ;
+4. clarifier la stratégie de sauvegarde ;
+5. stabiliser l’import des recettes ;
+6. poursuivre la personnalisation Carl Kitchen.
