@@ -1,0 +1,181 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ustensiles de cuisine — Carl Kitchen Lot 1",
+  "itemListElement": [
+    {
+      "@type": "HowToTool",
+      "name": "Balance de cuisine",
+      "additionalType": "Mélange / mesure",
+      "description": "Utilisé dans : P02"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Bocal ou boîte hermétique",
+      "additionalType": "Conservation",
+      "description": "Utilisé dans : P09"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Bol d’eau froide",
+      "additionalType": "Mélange / mesure",
+      "description": "Utilisé dans : P03"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Bol ou petite casserole",
+      "additionalType": "Cuisson",
+      "description": "Utilisé dans : P11"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Boîte hermétique",
+      "additionalType": "Conservation",
+      "description": "Utilisé dans : P01, P02, P03, P11"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Casserole",
+      "additionalType": "Cuisson",
+      "description": "Utilisé dans : P03"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Couteau",
+      "additionalType": "Découpe / préparation",
+      "description": "Utilisé dans : P02, P09, P10"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Couteau de chef",
+      "additionalType": "Découpe / préparation",
+      "description": "Utilisé dans : P01"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Cuillère doseuse",
+      "additionalType": "Mélange / mesure",
+      "description": "Utilisé dans : P11"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Cuillères doseuses",
+      "additionalType": "Mélange / mesure",
+      "description": "Utilisé dans : P04, P05, P06, P07, P08"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Fouet",
+      "additionalType": "Mélange / mesure",
+      "description": "Utilisé dans : P10, P11"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Minuteur",
+      "additionalType": "Contrôle cuisson",
+      "description": "Utilisé dans : P03"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Mixeur plongeant facultatif",
+      "additionalType": "Autre",
+      "description": "Utilisé dans : P09"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Petit bol",
+      "additionalType": "Mélange / mesure",
+      "description": "Utilisé dans : P04, P05, P06, P07, P08"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Petit fouet ou cuillère",
+      "additionalType": "Mélange / mesure",
+      "description": "Utilisé dans : P04, P05, P06, P07, P08"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Petite casserole",
+      "additionalType": "Cuisson",
+      "description": "Utilisé dans : P10"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Pince de cuisine",
+      "additionalType": "Autre",
+      "description": "Utilisé dans : P01"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Planche à découper",
+      "additionalType": "Découpe / préparation",
+      "description": "Utilisé dans : P01, P02, P09, P10"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Pot à épices",
+      "additionalType": "Conservation",
+      "description": "Utilisé dans : P04, P05, P06, P07, P08"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Poêle antiadhésive",
+      "additionalType": "Cuisson",
+      "description": "Utilisé dans : P02"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Poêle antiadhésive ou grill",
+      "additionalType": "Cuisson",
+      "description": "Utilisé dans : P01"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Râpe fine ou presse-ail",
+      "additionalType": "Découpe / préparation",
+      "description": "Utilisé dans : P11"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Râpe fine si zeste frais",
+      "additionalType": "Découpe / préparation",
+      "description": "Utilisé dans : P08"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Saladier",
+      "additionalType": "Mélange / mesure",
+      "description": "Utilisé dans : P01, P02"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Sauteuse ou casserole",
+      "additionalType": "Cuisson",
+      "description": "Utilisé dans : P09"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Spatule",
+      "additionalType": "Mélange / mesure",
+      "description": "Utilisé dans : P02, P09, P10"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Verre doseur",
+      "additionalType": "Mélange / mesure",
+      "description": "Utilisé dans : P10"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Écumoire ou cuillère",
+      "additionalType": "Mélange / mesure",
+      "description": "Utilisé dans : P03"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Étiquette",
+      "additionalType": "Conservation",
+      "description": "Utilisé dans : P04, P05, P06, P07, P08"
+    }
+  ]
+}

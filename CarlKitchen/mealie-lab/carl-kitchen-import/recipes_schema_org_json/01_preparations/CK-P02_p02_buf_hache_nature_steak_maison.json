@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "P02 — Bœuf haché nature / steak maison",
+  "description": "Base bœuf simple, utilisable en steak, bœuf émietté, kefta ou garniture de plat chaud.",
+  "author": {
+    "@type": "Person",
+    "name": "Carl Kitchen"
+  },
+  "recipeCuisine": "Carl Kitchen",
+  "recipeCategory": "Préparation — Protéine de base",
+  "keywords": "Carl Kitchen, Préparation, Bœuf, Base neutre, Batch cooking, Protéine de base, Ustensiles inclus, Nutrition estimée",
+  "recipeYield": "4 portions",
+  "prepTime": "PT5M",
+  "cookTime": "PT10M",
+  "totalTime": "PT15M",
+  "recipeIngredient": [
+    "600 g de bœuf haché 5 à 10 % MG",
+    "1 cuillère à soupe d’huile d’olive",
+    "1 cuillère à café de sel",
+    "1/2 cuillère à café de poivre",
+    "1/2 oignon finement haché, facultatif"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+      "text": "Catégorie : Préparation — Protéine de base\nUstensiles : Saladier, Balance de cuisine, Planche à découper, Couteau, Poêle antiadhésive, Spatule, Boîte hermétique\nNutrition estimée par portion : 1 portion de bœuf, environ 150 g cru avant cuisson — estimation sur 1/4 de la préparation — 240 kcal, protéines 31 g, glucides 1 g, lipides 12 g, fibres 0 g.\nNote Carl Kitchen : Base neutre pouvant devenir steak, bœuf émietté ou kefta avec les mélanges d’épices."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Mélanger le bœuf avec sel, poivre et oignon si utilisé."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Diviser selon l’usage : steaks pour burger, boulettes/kefta ou bœuf émietté."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Cuire à la poêle 3 à 4 min par face pour les steaks, ou 6 à 8 min pour une cuisson émiettée."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Conserver nature pour pouvoir assaisonner ensuite avec le mix spicy, oriental ou tomate épicée."
+    }
+  ],
+  "category": "Préparation — Protéine de base",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Saladier"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Balance de cuisine"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Planche à découper"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Couteau"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Poêle antiadhésive"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Spatule"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Boîte hermétique"
+    }
+  ],
+  "utensils": [
+    "Saladier",
+    "Balance de cuisine",
+    "Planche à découper",
+    "Couteau",
+    "Poêle antiadhésive",
+    "Spatule",
+    "Boîte hermétique"
+  ],
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 portion de bœuf, environ 150 g cru avant cuisson — estimation sur 1/4 de la préparation",
+    "calories": "240 kcal",
+    "proteinContent": "31 g",
+    "carbohydrateContent": "1 g",
+    "fatContent": "12 g",
+    "fiberContent": "0 g",
+    "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+  }
+}

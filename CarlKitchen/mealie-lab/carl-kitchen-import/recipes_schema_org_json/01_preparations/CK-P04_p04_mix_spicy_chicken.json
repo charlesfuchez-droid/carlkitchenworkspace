@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "P04 — Mix Spicy Chicken",
+  "description": "Mélange sec pour transformer le poulet neutre en version spicy, fumée et gourmande.",
+  "author": {
+    "@type": "Person",
+    "name": "Carl Kitchen"
+  },
+  "recipeCuisine": "Carl Kitchen",
+  "recipeCategory": "Préparation — Mélange d’épices",
+  "keywords": "Carl Kitchen, Préparation, Mix épices, Spicy Chicken, Mélange d’épices, Ustensiles inclus, Nutrition estimée",
+  "recipeYield": "1 petit pot",
+  "prepTime": "PT5M",
+  "cookTime": "PT0M",
+  "totalTime": "PT5M",
+  "recipeIngredient": [
+    "2 cuillères à soupe de paprika fumé",
+    "1 cuillère à soupe de paprika doux",
+    "1 cuillère à café de cumin",
+    "1 cuillère à café d’ail semoule",
+    "1/2 cuillère à café de piment doux",
+    "1/2 cuillère à café de poivre"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+      "text": "Catégorie : Préparation — Mélange d’épices\nUstensiles : Cuillères doseuses, Petit bol, Petit fouet ou cuillère, Pot à épices, Étiquette\nNutrition estimée par portion : 1 cuillère à café de mix — 8 kcal, protéines 0 g, glucides 2 g, lipides 0 g, fibres 1 g.\nNote Carl Kitchen : Apporte paprika fumé, chaleur douce et profondeur au poulet, pommes de terre et bœuf."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Mélanger toutes les épices dans un petit pot."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Fermer et secouer."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Utiliser 1 à 2 cuillères à café par portion de poulet, avec un filet d’huile d’olive ou de citron."
+    }
+  ],
+  "category": "Préparation — Mélange d’épices",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Cuillères doseuses"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Petit bol"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Petit fouet ou cuillère"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Pot à épices"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Étiquette"
+    }
+  ],
+  "utensils": [
+    "Cuillères doseuses",
+    "Petit bol",
+    "Petit fouet ou cuillère",
+    "Pot à épices",
+    "Étiquette"
+  ],
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 cuillère à café de mix",
+    "calories": "8 kcal",
+    "proteinContent": "0 g",
+    "carbohydrateContent": "2 g",
+    "fatContent": "0 g",
+    "fiberContent": "1 g",
+    "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+  }
+}

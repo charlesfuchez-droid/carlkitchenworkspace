@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "P01 — Poulet grillé neutre",
+  "description": "Base unique de volaille volontairement simple, à transformer ensuite avec les mix d’épices et sauces Carl Kitchen.",
+  "author": {
+    "@type": "Person",
+    "name": "Carl Kitchen"
+  },
+  "recipeCuisine": "Carl Kitchen",
+  "recipeCategory": "Préparation — Protéine de base",
+  "keywords": "Carl Kitchen, Préparation, Poulet, Base neutre, Batch cooking, Protéine de base, Ustensiles inclus, Nutrition estimée",
+  "recipeYield": "4 à 6 portions",
+  "prepTime": "PT5M",
+  "cookTime": "PT15M",
+  "totalTime": "PT20M",
+  "recipeIngredient": [
+    "800 g de blancs de poulet ou dinde",
+    "2 cuillères à soupe d’huile d’olive",
+    "1 cuillère à café de sel",
+    "1/2 cuillère à café de poivre",
+    "1 gousse d’ail râpée, facultatif"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+      "text": "Catégorie : Préparation — Protéine de base\nUstensiles : Planche à découper, Couteau de chef, Saladier, Poêle antiadhésive ou grill, Pince de cuisine, Boîte hermétique\nNutrition estimée par portion : 1 portion de poulet, environ 130 g cuit — estimation sur 1/6 de la préparation — 205 kcal, protéines 31 g, glucides 0 g, lipides 7 g, fibres 0 g.\nNote Carl Kitchen : Base volontairement neutre pour être transformée ensuite avec les mix d’épices ou sauces."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Couper le poulet en filets fins ou en gros dés réguliers."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Assaisonner avec huile d’olive, sel, poivre et ail si utilisé."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Saisir à feu moyen-vif 4 à 5 min par face, jusqu’à cuisson complète."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Laisser reposer 5 min, puis conserver entier ou émincé en boîte hermétique."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Utiliser nature ou finir minute avec un mix d’épices, une sauce tomate, une crème vin blanc ou une crème curry-curcuma."
+    }
+  ],
+  "category": "Préparation — Protéine de base",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Planche à découper"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Couteau de chef"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Saladier"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Poêle antiadhésive ou grill"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Pince de cuisine"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Boîte hermétique"
+    }
+  ],
+  "utensils": [
+    "Planche à découper",
+    "Couteau de chef",
+    "Saladier",
+    "Poêle antiadhésive ou grill",
+    "Pince de cuisine",
+    "Boîte hermétique"
+  ],
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 portion de poulet, environ 130 g cuit — estimation sur 1/6 de la préparation",
+    "calories": "205 kcal",
+    "proteinContent": "31 g",
+    "carbohydrateContent": "0 g",
+    "fatContent": "7 g",
+    "fiberContent": "0 g",
+    "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+  }
+}

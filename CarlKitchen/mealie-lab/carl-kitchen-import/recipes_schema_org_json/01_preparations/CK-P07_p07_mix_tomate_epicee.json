@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "P07 — Mix Tomate épicée",
+  "description": "Mélange sec pour renforcer la sauce tomate, les bœufs mijotés, les œufs et les pâtes.",
+  "author": {
+    "@type": "Person",
+    "name": "Carl Kitchen"
+  },
+  "recipeCuisine": "Carl Kitchen",
+  "recipeCategory": "Préparation — Mélange d’épices",
+  "keywords": "Carl Kitchen, Préparation, Mix épices, Tomate épicée, Mélange d’épices, Ustensiles inclus, Nutrition estimée",
+  "recipeYield": "1 petit pot",
+  "prepTime": "PT5M",
+  "cookTime": "PT0M",
+  "totalTime": "PT5M",
+  "recipeIngredient": [
+    "2 cuillères à soupe de paprika doux",
+    "1 cuillère à café de paprika fumé",
+    "1 cuillère à café d’ail semoule",
+    "1 cuillère à café d’herbes de Provence",
+    "1/2 cuillère à café de piment doux",
+    "1/2 cuillère à café de poivre"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+      "text": "Catégorie : Préparation — Mélange d’épices\nUstensiles : Cuillères doseuses, Petit bol, Petit fouet ou cuillère, Pot à épices, Étiquette\nNutrition estimée par portion : 1 cuillère à café de mix — 7 kcal, protéines 0 g, glucides 1 g, lipides 0 g, fibres 1 g.\nNote Carl Kitchen : Renforce la sauce tomate épicée et les plats façon arrabbiata douce."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Mélanger toutes les épices."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Utiliser dans la sauce tomate, sur du bœuf ou dans une poêlée de pommes de terre."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Ajouter progressivement pour contrôler le niveau d’épices."
+    }
+  ],
+  "category": "Préparation — Mélange d’épices",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Cuillères doseuses"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Petit bol"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Petit fouet ou cuillère"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Pot à épices"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Étiquette"
+    }
+  ],
+  "utensils": [
+    "Cuillères doseuses",
+    "Petit bol",
+    "Petit fouet ou cuillère",
+    "Pot à épices",
+    "Étiquette"
+  ],
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 cuillère à café de mix",
+    "calories": "7 kcal",
+    "proteinContent": "0 g",
+    "carbohydrateContent": "1 g",
+    "fatContent": "0 g",
+    "fiberContent": "1 g",
+    "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+  }
+}

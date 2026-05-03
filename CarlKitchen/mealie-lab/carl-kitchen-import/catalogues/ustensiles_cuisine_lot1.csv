@@ -1,0 +1,30 @@
+﻿ustensile;type;preparations_associees;nombre_utilisations
+Balance de cuisine;Mélange / mesure;P02;1
+Bocal ou boîte hermétique;Conservation;P09;1
+Bol d’eau froide;Mélange / mesure;P03;1
+Bol ou petite casserole;Cuisson;P11;1
+Boîte hermétique;Conservation;P01, P02, P03, P11;4
+Casserole;Cuisson;P03;1
+Couteau;Découpe / préparation;P02, P09, P10;3
+Couteau de chef;Découpe / préparation;P01;1
+Cuillère doseuse;Mélange / mesure;P11;1
+Cuillères doseuses;Mélange / mesure;P04, P05, P06, P07, P08;5
+Fouet;Mélange / mesure;P10, P11;2
+Minuteur;Contrôle cuisson;P03;1
+Mixeur plongeant facultatif;Autre;P09;1
+Petit bol;Mélange / mesure;P04, P05, P06, P07, P08;5
+Petit fouet ou cuillère;Mélange / mesure;P04, P05, P06, P07, P08;5
+Petite casserole;Cuisson;P10;1
+Pince de cuisine;Autre;P01;1
+Planche à découper;Découpe / préparation;P01, P02, P09, P10;4
+Pot à épices;Conservation;P04, P05, P06, P07, P08;5
+Poêle antiadhésive;Cuisson;P02;1
+Poêle antiadhésive ou grill;Cuisson;P01;1
+Râpe fine ou presse-ail;Découpe / préparation;P11;1
+Râpe fine si zeste frais;Découpe / préparation;P08;1
+Saladier;Mélange / mesure;P01, P02;2
+Sauteuse ou casserole;Cuisson;P09;1
+Spatule;Mélange / mesure;P02, P09, P10;3
+Verre doseur;Mélange / mesure;P10;1
+Écumoire ou cuillère;Mélange / mesure;P03;1
+Étiquette;Conservation;P04, P05, P06, P07, P08;5

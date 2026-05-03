@@ -1,0 +1,181 @@
+﻿# ==========================================================
+# Carl Kitchen - .gitignore
+# Racine du repo Git : C:\Docker\CarlKitchen
+# ==========================================================
+
+
+# ==========================================================
+# Secrets / configuration locale
+# ==========================================================
+
+.env
+*.env
+.env.*
+!*.env.example
+
+mealie-lab/.env
+mealie-lab/.env.*
+!mealie-lab/.env.example
+
+# Config API Mealie avec token
+mealie-lab/carl-kitchen-import/mealie-import.config.json
+!mealie-lab/carl-kitchen-import/mealie-import.config.example.json
+
+# États et logs d'import
+mealie-lab/carl-kitchen-import/mealie-import-state.json
+mealie-lab/carl-kitchen-import/mealie-import.log
+*.log
+
+
+# ==========================================================
+# Données applicatives Mealie
+# ==========================================================
+
+mealie-lab/data/
+mealie-lab/backups/
+
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+*.backup
+*.sql
+
+
+# ==========================================================
+# Base de données française locale
+# ==========================================================
+
+bdd-francaise/
+carl-kitchen-import/mealie-import.config.json
+mealie-lab/carl-kitchen-import/recipe_images/
+
+# ==========================================================
+# Archives / temporaires
+# ==========================================================
+
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+tmp/
+temp/
+cache/
+.cache/
+exports/
+
+
+# ==========================================================
+# Images et médias lourds
+# ==========================================================
+
+mealie-lab/carl-kitchen-import/recipe_images/
+mealie-lab/custom-brand/generated/
+
+*.psd
+*.xcf
+*.ai
+
+
+# ==========================================================
+# Docker local
+# ==========================================================
+
+docker-compose.override.yml
+mealie-lab/docker-compose.override.yml
+.docker/
+
+
+# ==========================================================
+# PowerShell / historique
+# ==========================================================
+
+historique_powershell.txt
+*history*.txt
+*.ps1xml
+*.pssc
+*.psd1.user
+*.psm1.user
+
+
+# ==========================================================
+# Python
+# ==========================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+pip-wheel-metadata/
+.pytest_cache/
+
+
+# ==========================================================
+# Node éventuel
+# ==========================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ==========================================================
+# .NET / build
+# ==========================================================
+
+bin/
+obj/
+.vs/
+
+*.user
+*.suo
+*.dll
+*.pdb
+*.exe
+*.msi
+
+
+# ==========================================================
+# IDE / système
+# ==========================================================
+
+.vscode/
+.idea/
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+
+# ==========================================================
+# Exceptions à garder dans Git
+# ==========================================================
+
+!README.md
+!**/README.md
+
+!*.example
+!*.example.json
+!*.example.env
+!*.env.example
+
+!mealie-lab/docker-compose.yml
+!mealie-lab/Caddyfile
+!mealie-lab/scripts/
+!mealie-lab/scripts/*.ps1
+
+!mealie-lab/carl-kitchen-import/recipes_schema_org_json/
+!mealie-lab/carl-kitchen-import/recipes_schema_org_json/**/*.json
+!mealie-lab/carl-kitchen-import/mealie_tools.csv
+!mealie-lab/carl-kitchen-import/image_manifest.csv
+!mealie-lab/carl-kitchen-import/mealie-import.config.example.json

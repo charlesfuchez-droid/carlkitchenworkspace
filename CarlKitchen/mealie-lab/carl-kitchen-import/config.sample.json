@@ -1,0 +1,19 @@
+{
+  "MealieUrl": "http://localhost:9925",
+  "ApiToken": "COLLE_TON_TOKEN_API_MEALIE_ICI",
+  "RecipesDirectory": ".\\recipes_schema_org_json\\01_preparations",
+  "SkipExisting": true,
+  "TimeoutSeconds": 30,
+  "LogFile": ".\\mealie-import.log",
+  "StateFile": ".\\mealie-import-state.json",
+  "EndpointCandidates": [
+    "/api/recipes/create/html-or-json",
+    "/api/recipes/create-from-html-or-json"
+  ],
+  "PayloadModes": [
+    "data-string",
+    "json-string",
+    "html-or-json-string",
+    "raw-schema-json"
+  ]
+}

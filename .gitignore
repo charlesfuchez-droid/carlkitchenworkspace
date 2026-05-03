@@ -1,0 +1,201 @@
+﻿# ==========================================================
+# Carl Kitchen Workspace - .gitignore
+# Racine du repo : C:\Docker
+# ==========================================================
+
+
+# ==========================================================
+# Anciens dépôts Git sauvegardés localement
+# ==========================================================
+
+.git_OLD*/
+.gitmodules_OLD*
+**/.git_OLD*
+
+
+# ==========================================================
+# Secrets / configuration locale
+# ==========================================================
+
+.env
+*.env
+.env.*
+!*.env.example
+
+CarlKitchen/mealie-lab/.env
+CarlKitchen/mealie-lab/.env.*
+!CarlKitchen/mealie-lab/.env.example
+
+CarlKitchen/mealie-lab/carl-kitchen-import/mealie-import.config.json
+!CarlKitchen/mealie-lab/carl-kitchen-import/mealie-import.config.example.json
+
+
+# ==========================================================
+# Logs / états d'import
+# ==========================================================
+
+*.log
+CarlKitchen/mealie-lab/carl-kitchen-import/mealie-import.log
+CarlKitchen/mealie-lab/carl-kitchen-import/mealie-import-state.json
+
+
+# ==========================================================
+# Données Mealie
+# ==========================================================
+
+CarlKitchen/mealie-lab/data/
+CarlKitchen/mealie-lab/backups/
+
+
+# ==========================================================
+# Base française locale / volumineuse
+# ==========================================================
+
+CarlKitchen/bdd-francaise/
+
+
+# ==========================================================
+# Images lourdes ou générées
+# ==========================================================
+
+CarlKitchen/mealie-lab/carl-kitchen-import/recipe_images/
+CarlKitchen/mealie-lab/custom-brand/generated/
+
+
+# ==========================================================
+# Archives / temporaires
+# ==========================================================
+
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+tmp/
+temp/
+cache/
+.cache/
+exports/
+
+
+# ==========================================================
+# Bases / dumps
+# ==========================================================
+
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+*.backup
+*.sql
+
+
+# ==========================================================
+# Python
+# ==========================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+
+
+# ==========================================================
+# Node éventuel
+# ==========================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ==========================================================
+# .NET / WinForms / Desktop app
+# ==========================================================
+
+bin/
+obj/
+.vs/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+*.dll
+*.pdb
+*.exe
+*.msi
+
+
+# ==========================================================
+# Lanceur généré
+# ==========================================================
+
+Appli/CarlKitchenLauncher/*.exe
+Appli/CarlKitchenLauncher/*.tmp
+Appli/CarlKitchenLauncher/*.log
+
+
+# ==========================================================
+# IDE / système
+# ==========================================================
+
+.vscode/
+.idea/
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+
+# ==========================================================
+# Historique / fichiers locaux
+# ==========================================================
+
+historique_powershell.txt
+*history*.txt
+notes-locales/
+local-notes/
+
+
+# ==========================================================
+# Exceptions à garder dans Git
+# ==========================================================
+
+!README.md
+!**/README.md
+
+!*.example
+!*.example.json
+!*.example.env
+!*.env.example
+
+!CarlKitchen/mealie-lab/docker-compose.yml
+!CarlKitchen/mealie-lab/Caddyfile
+
+!CarlKitchen/mealie-lab/scripts/
+!CarlKitchen/mealie-lab/scripts/*.ps1
+
+!CarlKitchen/mealie-lab/carl-kitchen-import/recipes_schema_org_json/
+!CarlKitchen/mealie-lab/carl-kitchen-import/recipes_schema_org_json/**/*.json
+
+!CarlKitchen/mealie-lab/carl-kitchen-import/mealie_tools.csv
+!CarlKitchen/mealie-lab/carl-kitchen-import/image_manifest.csv
+!CarlKitchen/mealie-lab/carl-kitchen-import/mealie-import.config.example.json
+
+!Appli/
+!Appli/start-carl-kitchen.ps1
+!Appli/CarlKitchenLauncher/
+!Appli/CarlKitchenLauncher/CarlKitchenLauncher.ps1
+
+!docs/
+!docs/**/*.md

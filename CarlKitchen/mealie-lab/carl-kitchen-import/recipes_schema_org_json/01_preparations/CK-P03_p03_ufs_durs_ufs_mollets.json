@@ -1,0 +1,85 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "P03 — Œufs durs / œufs mollets",
+  "description": "Base protéinée rapide pour salades, pommes de terre, plats tomate et assiettes complètes.",
+  "author": {
+    "@type": "Person",
+    "name": "Carl Kitchen"
+  },
+  "recipeCuisine": "Carl Kitchen",
+  "recipeCategory": "Préparation — Protéine de base",
+  "keywords": "Carl Kitchen, Préparation, Œuf, Protéines, Batch cooking, Protéine de base, Ustensiles inclus, Nutrition estimée",
+  "recipeYield": "6 œufs",
+  "prepTime": "PT2M",
+  "cookTime": "PT10M",
+  "totalTime": "PT12M",
+  "recipeIngredient": [
+    "6 œufs",
+    "1 pincée de sel",
+    "Eau froide"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+      "text": "Catégorie : Préparation — Protéine de base\nUstensiles : Casserole, Minuteur, Écumoire ou cuillère, Bol d’eau froide, Boîte hermétique\nNutrition estimée par portion : 1 œuf — 78 kcal, protéines 6 g, glucides 1 g, lipides 5 g, fibres 0 g.\nNote Carl Kitchen : Base rapide pour salades, pommes de terre, plats tomate et compléments protéinés."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Porter une casserole d’eau à frémissement."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Cuire 6 min 30 pour des œufs mollets ou 9 à 10 min pour des œufs durs."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Refroidir immédiatement dans l’eau froide."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Écaler au moment de servir pour une meilleure conservation."
+    }
+  ],
+  "category": "Préparation — Protéine de base",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Casserole"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Minuteur"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Écumoire ou cuillère"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Bol d’eau froide"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Boîte hermétique"
+    }
+  ],
+  "utensils": [
+    "Casserole",
+    "Minuteur",
+    "Écumoire ou cuillère",
+    "Bol d’eau froide",
+    "Boîte hermétique"
+  ],
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 œuf",
+    "calories": "78 kcal",
+    "proteinContent": "6 g",
+    "carbohydrateContent": "1 g",
+    "fatContent": "5 g",
+    "fiberContent": "0 g",
+    "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+  }
+}

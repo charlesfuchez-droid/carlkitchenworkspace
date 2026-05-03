@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "P10 — Crème vin blanc",
+  "description": "Sauce bistrot légère à l’échalote, parfaite pour volaille, purée, pâtes, pommes sautées et légumes.",
+  "author": {
+    "@type": "Person",
+    "name": "Carl Kitchen"
+  },
+  "recipeCuisine": "Carl Kitchen",
+  "recipeCategory": "Préparation — Sauce chaude bistrot",
+  "keywords": "Carl Kitchen, Préparation, Sauce, Crème vin blanc, Bistrot, Sauce chaude bistrot, Ustensiles inclus, Nutrition estimée",
+  "recipeYield": "4 portions de sauce",
+  "prepTime": "PT5M",
+  "cookTime": "PT10M",
+  "totalTime": "PT15M",
+  "recipeIngredient": [
+    "1 échalote",
+    "120 ml de vin blanc sec",
+    "200 ml de crème légère",
+    "1 cuillère à café de moutarde douce",
+    "1 filet d’huile d’olive",
+    "Poivre",
+    "Sel",
+    "Persil ou estragon"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+      "text": "Catégorie : Préparation — Sauce chaude bistrot\nUstensiles : Petite casserole, Couteau, Planche à découper, Verre doseur, Fouet, Spatule\nNutrition estimée par portion : 1 portion de sauce — estimation sur 1/4 de la préparation — 120 kcal, protéines 2 g, glucides 4 g, lipides 9 g, fibres 0 g.\nNote Carl Kitchen : Sauce restaurant pour volaille, purée, pommes sautées, pâtes et légumes."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Ciseler l’échalote."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "La faire revenir 2 min avec un filet d’huile d’olive."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Ajouter le vin blanc et réduire de moitié."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Ajouter crème, moutarde, sel et poivre."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Laisser napper 5 min. Finir avec persil ou estragon."
+    }
+  ],
+  "category": "Préparation — Sauce chaude bistrot",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Petite casserole"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Couteau"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Planche à découper"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Verre doseur"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Fouet"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Spatule"
+    }
+  ],
+  "utensils": [
+    "Petite casserole",
+    "Couteau",
+    "Planche à découper",
+    "Verre doseur",
+    "Fouet",
+    "Spatule"
+  ],
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 portion de sauce — estimation sur 1/4 de la préparation",
+    "calories": "120 kcal",
+    "proteinContent": "2 g",
+    "carbohydrateContent": "4 g",
+    "fatContent": "9 g",
+    "fiberContent": "0 g",
+    "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+  }
+}

@@ -1,0 +1,11 @@
+http://localhost {
+    reverse_proxy mealie:9000
+}
+
+http://kitchen.carl.io {
+    reverse_proxy mealie:9000
+}
+
+http://charles-kitchen.localhost {
+    reverse_proxy mealie:9000
+}

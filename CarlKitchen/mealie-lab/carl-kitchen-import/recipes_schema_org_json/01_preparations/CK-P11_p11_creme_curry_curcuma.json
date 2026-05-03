@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "P11 — Crème curry-curcuma",
+  "description": "Sauce chaude superfood, crémeuse mais légère, pour volaille, riz, légumes, patate douce et pois chiches.",
+  "author": {
+    "@type": "Person",
+    "name": "Carl Kitchen"
+  },
+  "recipeCuisine": "Carl Kitchen",
+  "recipeCategory": "Préparation — Sauce chaude superfood",
+  "keywords": "Carl Kitchen, Préparation, Sauce, Curry, Curcuma, Superfood, Sauce chaude superfood, Ustensiles inclus, Nutrition estimée",
+  "recipeYield": "4 portions de sauce",
+  "prepTime": "PT5M",
+  "cookTime": "PT5M",
+  "totalTime": "PT10M",
+  "recipeIngredient": [
+    "200 ml de crème légère ou 150 g de yaourt grec",
+    "1 cuillère à café de P05 — Mix Curry Curcuma",
+    "1 petite gousse d’ail râpée",
+    "1 cuillère à café de jus de citron",
+    "Sel",
+    "Poivre",
+    "Coriandre fraîche, facultatif"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+      "text": "Catégorie : Préparation — Sauce chaude superfood\nUstensiles : Bol ou petite casserole, Fouet, Râpe fine ou presse-ail, Cuillère doseuse, Boîte hermétique\nNutrition estimée par portion : 1 portion de sauce — estimation sur 1/4 de la préparation — 90 kcal, protéines 3 g, glucides 3 g, lipides 6 g, fibres 0 g.\nNote Carl Kitchen : Sauce curcuma-curry douce, utile pour donner une signature superfood aux plats."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Chauffer doucement la crème ou le yaourt à feu doux."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Ajouter le mix curry-curcuma et l’ail."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Mélanger sans faire bouillir fort."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Assaisonner avec sel, poivre et citron."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Finir avec coriandre fraîche si disponible."
+    }
+  ],
+  "category": "Préparation — Sauce chaude superfood",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Bol ou petite casserole"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Fouet"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Râpe fine ou presse-ail"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Cuillère doseuse"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Boîte hermétique"
+    }
+  ],
+  "utensils": [
+    "Bol ou petite casserole",
+    "Fouet",
+    "Râpe fine ou presse-ail",
+    "Cuillère doseuse",
+    "Boîte hermétique"
+  ],
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 portion de sauce — estimation sur 1/4 de la préparation",
+    "calories": "90 kcal",
+    "proteinContent": "3 g",
+    "carbohydrateContent": "3 g",
+    "fatContent": "6 g",
+    "fiberContent": "0 g",
+    "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+  }
+}

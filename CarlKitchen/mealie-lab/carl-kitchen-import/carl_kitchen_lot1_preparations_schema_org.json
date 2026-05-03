@@ -1,0 +1,997 @@
+[
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "P01 — Poulet grillé neutre",
+    "description": "Base unique de volaille volontairement simple, à transformer ensuite avec les mix d’épices et sauces Carl Kitchen.",
+    "author": {
+      "@type": "Person",
+      "name": "Carl Kitchen"
+    },
+    "recipeCuisine": "Carl Kitchen",
+    "recipeCategory": "Préparation — Protéine de base",
+    "keywords": "Carl Kitchen, Préparation, Poulet, Base neutre, Batch cooking, Protéine de base, Ustensiles inclus, Nutrition estimée",
+    "recipeYield": "4 à 6 portions",
+    "prepTime": "PT5M",
+    "cookTime": "PT15M",
+    "totalTime": "PT20M",
+    "recipeIngredient": [
+      "800 g de blancs de poulet ou dinde",
+      "2 cuillères à soupe d’huile d’olive",
+      "1 cuillère à café de sel",
+      "1/2 cuillère à café de poivre",
+      "1 gousse d’ail râpée, facultatif"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+        "text": "Catégorie : Préparation — Protéine de base\nUstensiles : Planche à découper, Couteau de chef, Saladier, Poêle antiadhésive ou grill, Pince de cuisine, Boîte hermétique\nNutrition estimée par portion : 1 portion de poulet, environ 130 g cuit — estimation sur 1/6 de la préparation — 205 kcal, protéines 31 g, glucides 0 g, lipides 7 g, fibres 0 g.\nNote Carl Kitchen : Base volontairement neutre pour être transformée ensuite avec les mix d’épices ou sauces."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Couper le poulet en filets fins ou en gros dés réguliers."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Assaisonner avec huile d’olive, sel, poivre et ail si utilisé."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Saisir à feu moyen-vif 4 à 5 min par face, jusqu’à cuisson complète."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Laisser reposer 5 min, puis conserver entier ou émincé en boîte hermétique."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Utiliser nature ou finir minute avec un mix d’épices, une sauce tomate, une crème vin blanc ou une crème curry-curcuma."
+      }
+    ],
+    "category": "Préparation — Protéine de base",
+    "tool": [
+      {
+        "@type": "HowToTool",
+        "name": "Planche à découper"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Couteau de chef"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Saladier"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Poêle antiadhésive ou grill"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Pince de cuisine"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Boîte hermétique"
+      }
+    ],
+    "utensils": [
+      "Planche à découper",
+      "Couteau de chef",
+      "Saladier",
+      "Poêle antiadhésive ou grill",
+      "Pince de cuisine",
+      "Boîte hermétique"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 portion de poulet, environ 130 g cuit — estimation sur 1/6 de la préparation",
+      "calories": "205 kcal",
+      "proteinContent": "31 g",
+      "carbohydrateContent": "0 g",
+      "fatContent": "7 g",
+      "fiberContent": "0 g",
+      "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "P02 — Bœuf haché nature / steak maison",
+    "description": "Base bœuf simple, utilisable en steak, bœuf émietté, kefta ou garniture de plat chaud.",
+    "author": {
+      "@type": "Person",
+      "name": "Carl Kitchen"
+    },
+    "recipeCuisine": "Carl Kitchen",
+    "recipeCategory": "Préparation — Protéine de base",
+    "keywords": "Carl Kitchen, Préparation, Bœuf, Base neutre, Batch cooking, Protéine de base, Ustensiles inclus, Nutrition estimée",
+    "recipeYield": "4 portions",
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "recipeIngredient": [
+      "600 g de bœuf haché 5 à 10 % MG",
+      "1 cuillère à soupe d’huile d’olive",
+      "1 cuillère à café de sel",
+      "1/2 cuillère à café de poivre",
+      "1/2 oignon finement haché, facultatif"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+        "text": "Catégorie : Préparation — Protéine de base\nUstensiles : Saladier, Balance de cuisine, Planche à découper, Couteau, Poêle antiadhésive, Spatule, Boîte hermétique\nNutrition estimée par portion : 1 portion de bœuf, environ 150 g cru avant cuisson — estimation sur 1/4 de la préparation — 240 kcal, protéines 31 g, glucides 1 g, lipides 12 g, fibres 0 g.\nNote Carl Kitchen : Base neutre pouvant devenir steak, bœuf émietté ou kefta avec les mélanges d’épices."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Mélanger le bœuf avec sel, poivre et oignon si utilisé."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Diviser selon l’usage : steaks pour burger, boulettes/kefta ou bœuf émietté."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Cuire à la poêle 3 à 4 min par face pour les steaks, ou 6 à 8 min pour une cuisson émiettée."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Conserver nature pour pouvoir assaisonner ensuite avec le mix spicy, oriental ou tomate épicée."
+      }
+    ],
+    "category": "Préparation — Protéine de base",
+    "tool": [
+      {
+        "@type": "HowToTool",
+        "name": "Saladier"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Balance de cuisine"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Planche à découper"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Couteau"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Poêle antiadhésive"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Spatule"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Boîte hermétique"
+      }
+    ],
+    "utensils": [
+      "Saladier",
+      "Balance de cuisine",
+      "Planche à découper",
+      "Couteau",
+      "Poêle antiadhésive",
+      "Spatule",
+      "Boîte hermétique"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 portion de bœuf, environ 150 g cru avant cuisson — estimation sur 1/4 de la préparation",
+      "calories": "240 kcal",
+      "proteinContent": "31 g",
+      "carbohydrateContent": "1 g",
+      "fatContent": "12 g",
+      "fiberContent": "0 g",
+      "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "P03 — Œufs durs / œufs mollets",
+    "description": "Base protéinée rapide pour salades, pommes de terre, plats tomate et assiettes complètes.",
+    "author": {
+      "@type": "Person",
+      "name": "Carl Kitchen"
+    },
+    "recipeCuisine": "Carl Kitchen",
+    "recipeCategory": "Préparation — Protéine de base",
+    "keywords": "Carl Kitchen, Préparation, Œuf, Protéines, Batch cooking, Protéine de base, Ustensiles inclus, Nutrition estimée",
+    "recipeYield": "6 œufs",
+    "prepTime": "PT2M",
+    "cookTime": "PT10M",
+    "totalTime": "PT12M",
+    "recipeIngredient": [
+      "6 œufs",
+      "1 pincée de sel",
+      "Eau froide"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+        "text": "Catégorie : Préparation — Protéine de base\nUstensiles : Casserole, Minuteur, Écumoire ou cuillère, Bol d’eau froide, Boîte hermétique\nNutrition estimée par portion : 1 œuf — 78 kcal, protéines 6 g, glucides 1 g, lipides 5 g, fibres 0 g.\nNote Carl Kitchen : Base rapide pour salades, pommes de terre, plats tomate et compléments protéinés."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Porter une casserole d’eau à frémissement."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Cuire 6 min 30 pour des œufs mollets ou 9 à 10 min pour des œufs durs."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Refroidir immédiatement dans l’eau froide."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Écaler au moment de servir pour une meilleure conservation."
+      }
+    ],
+    "category": "Préparation — Protéine de base",
+    "tool": [
+      {
+        "@type": "HowToTool",
+        "name": "Casserole"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Minuteur"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Écumoire ou cuillère"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Bol d’eau froide"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Boîte hermétique"
+      }
+    ],
+    "utensils": [
+      "Casserole",
+      "Minuteur",
+      "Écumoire ou cuillère",
+      "Bol d’eau froide",
+      "Boîte hermétique"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 œuf",
+      "calories": "78 kcal",
+      "proteinContent": "6 g",
+      "carbohydrateContent": "1 g",
+      "fatContent": "5 g",
+      "fiberContent": "0 g",
+      "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "P04 — Mix Spicy Chicken",
+    "description": "Mélange sec pour transformer le poulet neutre en version spicy, fumée et gourmande.",
+    "author": {
+      "@type": "Person",
+      "name": "Carl Kitchen"
+    },
+    "recipeCuisine": "Carl Kitchen",
+    "recipeCategory": "Préparation — Mélange d’épices",
+    "keywords": "Carl Kitchen, Préparation, Mix épices, Spicy Chicken, Mélange d’épices, Ustensiles inclus, Nutrition estimée",
+    "recipeYield": "1 petit pot",
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT5M",
+    "recipeIngredient": [
+      "2 cuillères à soupe de paprika fumé",
+      "1 cuillère à soupe de paprika doux",
+      "1 cuillère à café de cumin",
+      "1 cuillère à café d’ail semoule",
+      "1/2 cuillère à café de piment doux",
+      "1/2 cuillère à café de poivre"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+        "text": "Catégorie : Préparation — Mélange d’épices\nUstensiles : Cuillères doseuses, Petit bol, Petit fouet ou cuillère, Pot à épices, Étiquette\nNutrition estimée par portion : 1 cuillère à café de mix — 8 kcal, protéines 0 g, glucides 2 g, lipides 0 g, fibres 1 g.\nNote Carl Kitchen : Apporte paprika fumé, chaleur douce et profondeur au poulet, pommes de terre et bœuf."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Mélanger toutes les épices dans un petit pot."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Fermer et secouer."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Utiliser 1 à 2 cuillères à café par portion de poulet, avec un filet d’huile d’olive ou de citron."
+      }
+    ],
+    "category": "Préparation — Mélange d’épices",
+    "tool": [
+      {
+        "@type": "HowToTool",
+        "name": "Cuillères doseuses"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Petit bol"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Petit fouet ou cuillère"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Pot à épices"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Étiquette"
+      }
+    ],
+    "utensils": [
+      "Cuillères doseuses",
+      "Petit bol",
+      "Petit fouet ou cuillère",
+      "Pot à épices",
+      "Étiquette"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 cuillère à café de mix",
+      "calories": "8 kcal",
+      "proteinContent": "0 g",
+      "carbohydrateContent": "2 g",
+      "fatContent": "0 g",
+      "fiberContent": "1 g",
+      "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "P05 — Mix Curry Curcuma",
+    "description": "Mélange superfood doux pour plats curry, volaille crémeuse, légumes et patate douce.",
+    "author": {
+      "@type": "Person",
+      "name": "Carl Kitchen"
+    },
+    "recipeCuisine": "Carl Kitchen",
+    "recipeCategory": "Préparation — Mélange d’épices superfood",
+    "keywords": "Carl Kitchen, Préparation, Mix épices, Curcuma, Superfood, Mélange d’épices superfood, Ustensiles inclus, Nutrition estimée",
+    "recipeYield": "1 petit pot",
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT5M",
+    "recipeIngredient": [
+      "2 cuillères à soupe de curry doux",
+      "1 cuillère à soupe de curcuma",
+      "1 cuillère à café de gingembre moulu",
+      "1 cuillère à café d’ail semoule",
+      "1/2 cuillère à café de poivre noir",
+      "1 pincée de piment doux"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+        "text": "Catégorie : Préparation — Mélange d’épices superfood\nUstensiles : Cuillères doseuses, Petit bol, Petit fouet ou cuillère, Pot à épices, Étiquette\nNutrition estimée par portion : 1 cuillère à café de mix — 7 kcal, protéines 0 g, glucides 1 g, lipides 0 g, fibres 1 g.\nNote Carl Kitchen : Mix superfood autour du curcuma, du curry doux, du gingembre et du poivre."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Mélanger les épices dans un pot sec."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Fermer et secouer."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Utiliser 1 cuillère à café par portion, idéalement avec crème légère, yaourt grec ou lait de coco léger."
+      }
+    ],
+    "category": "Préparation — Mélange d’épices superfood",
+    "tool": [
+      {
+        "@type": "HowToTool",
+        "name": "Cuillères doseuses"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Petit bol"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Petit fouet ou cuillère"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Pot à épices"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Étiquette"
+      }
+    ],
+    "utensils": [
+      "Cuillères doseuses",
+      "Petit bol",
+      "Petit fouet ou cuillère",
+      "Pot à épices",
+      "Étiquette"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 cuillère à café de mix",
+      "calories": "7 kcal",
+      "proteinContent": "0 g",
+      "carbohydrateContent": "1 g",
+      "fatContent": "0 g",
+      "fiberContent": "1 g",
+      "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "P06 — Mix Oriental Kefta",
+    "description": "Mélange pour donner une direction kefta / orientale au bœuf, aux légumes ou à la semoule.",
+    "author": {
+      "@type": "Person",
+      "name": "Carl Kitchen"
+    },
+    "recipeCuisine": "Carl Kitchen",
+    "recipeCategory": "Préparation — Mélange d’épices",
+    "keywords": "Carl Kitchen, Préparation, Mix épices, Kefta, Oriental, Mélange d’épices, Ustensiles inclus, Nutrition estimée",
+    "recipeYield": "1 petit pot",
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT5M",
+    "recipeIngredient": [
+      "2 cuillères à café de cumin",
+      "2 cuillères à café de paprika",
+      "1 cuillère à café de coriandre moulue",
+      "1 cuillère à café d’ail semoule",
+      "1 pincée de cannelle",
+      "1/2 cuillère à café de poivre"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+        "text": "Catégorie : Préparation — Mélange d’épices\nUstensiles : Cuillères doseuses, Petit bol, Petit fouet ou cuillère, Pot à épices, Étiquette\nNutrition estimée par portion : 1 cuillère à café de mix — 7 kcal, protéines 0 g, glucides 1 g, lipides 0 g, fibres 1 g.\nNote Carl Kitchen : Transforme le bœuf nature en kefta ou assiette orientale."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Mélanger toutes les épices dans un pot."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Utiliser 1 à 2 cuillères à café pour 200 g de bœuf."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Ajouter persil ou coriandre fraîche au moment de servir."
+      }
+    ],
+    "category": "Préparation — Mélange d’épices",
+    "tool": [
+      {
+        "@type": "HowToTool",
+        "name": "Cuillères doseuses"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Petit bol"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Petit fouet ou cuillère"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Pot à épices"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Étiquette"
+      }
+    ],
+    "utensils": [
+      "Cuillères doseuses",
+      "Petit bol",
+      "Petit fouet ou cuillère",
+      "Pot à épices",
+      "Étiquette"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 cuillère à café de mix",
+      "calories": "7 kcal",
+      "proteinContent": "0 g",
+      "carbohydrateContent": "1 g",
+      "fatContent": "0 g",
+      "fiberContent": "1 g",
+      "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "P07 — Mix Tomate épicée",
+    "description": "Mélange sec pour renforcer la sauce tomate, les bœufs mijotés, les œufs et les pâtes.",
+    "author": {
+      "@type": "Person",
+      "name": "Carl Kitchen"
+    },
+    "recipeCuisine": "Carl Kitchen",
+    "recipeCategory": "Préparation — Mélange d’épices",
+    "keywords": "Carl Kitchen, Préparation, Mix épices, Tomate épicée, Mélange d’épices, Ustensiles inclus, Nutrition estimée",
+    "recipeYield": "1 petit pot",
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT5M",
+    "recipeIngredient": [
+      "2 cuillères à soupe de paprika doux",
+      "1 cuillère à café de paprika fumé",
+      "1 cuillère à café d’ail semoule",
+      "1 cuillère à café d’herbes de Provence",
+      "1/2 cuillère à café de piment doux",
+      "1/2 cuillère à café de poivre"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+        "text": "Catégorie : Préparation — Mélange d’épices\nUstensiles : Cuillères doseuses, Petit bol, Petit fouet ou cuillère, Pot à épices, Étiquette\nNutrition estimée par portion : 1 cuillère à café de mix — 7 kcal, protéines 0 g, glucides 1 g, lipides 0 g, fibres 1 g.\nNote Carl Kitchen : Renforce la sauce tomate épicée et les plats façon arrabbiata douce."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Mélanger toutes les épices."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Utiliser dans la sauce tomate, sur du bœuf ou dans une poêlée de pommes de terre."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Ajouter progressivement pour contrôler le niveau d’épices."
+      }
+    ],
+    "category": "Préparation — Mélange d’épices",
+    "tool": [
+      {
+        "@type": "HowToTool",
+        "name": "Cuillères doseuses"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Petit bol"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Petit fouet ou cuillère"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Pot à épices"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Étiquette"
+      }
+    ],
+    "utensils": [
+      "Cuillères doseuses",
+      "Petit bol",
+      "Petit fouet ou cuillère",
+      "Pot à épices",
+      "Étiquette"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 cuillère à café de mix",
+      "calories": "7 kcal",
+      "proteinContent": "0 g",
+      "carbohydrateContent": "1 g",
+      "fatContent": "0 g",
+      "fiberContent": "1 g",
+      "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "P08 — Mix Citron-Herbes",
+    "description": "Mélange frais pour transformer une base poulet ou légumes en assiette méditerranéenne.",
+    "author": {
+      "@type": "Person",
+      "name": "Carl Kitchen"
+    },
+    "recipeCuisine": "Carl Kitchen",
+    "recipeCategory": "Préparation — Mélange d’épices",
+    "keywords": "Carl Kitchen, Préparation, Mix épices, Citron, Herbes, Mélange d’épices, Ustensiles inclus, Nutrition estimée",
+    "recipeYield": "1 petit pot",
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT5M",
+    "recipeIngredient": [
+      "1 cuillère à soupe de thym",
+      "1 cuillère à soupe d’origan",
+      "1 cuillère à soupe de persil séché",
+      "1 cuillère à café d’ail semoule",
+      "1 cuillère à café de zestes de citron séchés ou zeste frais au moment",
+      "1/2 cuillère à café de poivre"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+        "text": "Catégorie : Préparation — Mélange d’épices\nUstensiles : Cuillères doseuses, Petit bol, Petit fouet ou cuillère, Pot à épices, Étiquette, Râpe fine si zeste frais\nNutrition estimée par portion : 1 cuillère à café de mix — 5 kcal, protéines 0 g, glucides 1 g, lipides 0 g, fibres 1 g.\nNote Carl Kitchen : Profil frais et méditerranéen pour poulet, salade, pommes de terre et légumes."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Mélanger les herbes et l’ail."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Ajouter le zeste frais au dernier moment si possible."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Utiliser avec citron, huile d’olive et poulet grillé."
+      }
+    ],
+    "category": "Préparation — Mélange d’épices",
+    "tool": [
+      {
+        "@type": "HowToTool",
+        "name": "Cuillères doseuses"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Petit bol"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Petit fouet ou cuillère"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Pot à épices"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Étiquette"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Râpe fine si zeste frais"
+      }
+    ],
+    "utensils": [
+      "Cuillères doseuses",
+      "Petit bol",
+      "Petit fouet ou cuillère",
+      "Pot à épices",
+      "Étiquette",
+      "Râpe fine si zeste frais"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 cuillère à café de mix",
+      "calories": "5 kcal",
+      "proteinContent": "0 g",
+      "carbohydrateContent": "1 g",
+      "fatContent": "0 g",
+      "fiberContent": "1 g",
+      "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "P09 — Sauce tomate épicée maison",
+    "description": "Base centrale Carl Kitchen : tomate, ail, paprika, curcuma et herbes. Elle sert aux œufs, pâtes, riz, bœuf, volaille et légumes.",
+    "author": {
+      "@type": "Person",
+      "name": "Carl Kitchen"
+    },
+    "recipeCuisine": "Carl Kitchen",
+    "recipeCategory": "Préparation — Sauce chaude signature",
+    "keywords": "Carl Kitchen, Préparation, Sauce, Tomate épicée, Superfood, Sauce chaude signature, Ustensiles inclus, Nutrition estimée",
+    "recipeYield": "1 grand pot / 6 portions",
+    "prepTime": "PT5M",
+    "cookTime": "PT20M",
+    "totalTime": "PT25M",
+    "recipeIngredient": [
+      "800 g de tomates concassées",
+      "1 oignon",
+      "2 gousses d’ail",
+      "2 cuillères à soupe d’huile d’olive",
+      "2 cuillères à café de P07 — Mix Tomate épicée",
+      "1/2 cuillère à café de curcuma",
+      "Sel",
+      "Poivre",
+      "Basilic ou persil"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+        "text": "Catégorie : Préparation — Sauce chaude signature\nUstensiles : Planche à découper, Couteau, Sauteuse ou casserole, Spatule, Mixeur plongeant facultatif, Bocal ou boîte hermétique\nNutrition estimée par portion : 1 portion de sauce — estimation sur 1/6 du grand pot — 85 kcal, protéines 2 g, glucides 10 g, lipides 5 g, fibres 3 g.\nNote Carl Kitchen : Sauce centrale de la carte : tomate, ail, paprika, curcuma et herbes."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Émincer l’oignon et l’ail."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Faire revenir dans l’huile d’olive 3 à 4 min sans brûler l’ail."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Ajouter les tomates concassées, le mix tomate épicée, le curcuma, sel et poivre."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Laisser mijoter 15 à 20 min à feu moyen."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Finir avec basilic ou persil. Garder une texture nappante."
+      }
+    ],
+    "category": "Préparation — Sauce chaude signature",
+    "tool": [
+      {
+        "@type": "HowToTool",
+        "name": "Planche à découper"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Couteau"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Sauteuse ou casserole"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Spatule"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Mixeur plongeant facultatif"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Bocal ou boîte hermétique"
+      }
+    ],
+    "utensils": [
+      "Planche à découper",
+      "Couteau",
+      "Sauteuse ou casserole",
+      "Spatule",
+      "Mixeur plongeant facultatif",
+      "Bocal ou boîte hermétique"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 portion de sauce — estimation sur 1/6 du grand pot",
+      "calories": "85 kcal",
+      "proteinContent": "2 g",
+      "carbohydrateContent": "10 g",
+      "fatContent": "5 g",
+      "fiberContent": "3 g",
+      "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "P10 — Crème vin blanc",
+    "description": "Sauce bistrot légère à l’échalote, parfaite pour volaille, purée, pâtes, pommes sautées et légumes.",
+    "author": {
+      "@type": "Person",
+      "name": "Carl Kitchen"
+    },
+    "recipeCuisine": "Carl Kitchen",
+    "recipeCategory": "Préparation — Sauce chaude bistrot",
+    "keywords": "Carl Kitchen, Préparation, Sauce, Crème vin blanc, Bistrot, Sauce chaude bistrot, Ustensiles inclus, Nutrition estimée",
+    "recipeYield": "4 portions de sauce",
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "recipeIngredient": [
+      "1 échalote",
+      "120 ml de vin blanc sec",
+      "200 ml de crème légère",
+      "1 cuillère à café de moutarde douce",
+      "1 filet d’huile d’olive",
+      "Poivre",
+      "Sel",
+      "Persil ou estragon"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+        "text": "Catégorie : Préparation — Sauce chaude bistrot\nUstensiles : Petite casserole, Couteau, Planche à découper, Verre doseur, Fouet, Spatule\nNutrition estimée par portion : 1 portion de sauce — estimation sur 1/4 de la préparation — 120 kcal, protéines 2 g, glucides 4 g, lipides 9 g, fibres 0 g.\nNote Carl Kitchen : Sauce restaurant pour volaille, purée, pommes sautées, pâtes et légumes."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Ciseler l’échalote."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "La faire revenir 2 min avec un filet d’huile d’olive."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Ajouter le vin blanc et réduire de moitié."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Ajouter crème, moutarde, sel et poivre."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Laisser napper 5 min. Finir avec persil ou estragon."
+      }
+    ],
+    "category": "Préparation — Sauce chaude bistrot",
+    "tool": [
+      {
+        "@type": "HowToTool",
+        "name": "Petite casserole"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Couteau"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Planche à découper"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Verre doseur"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Fouet"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Spatule"
+      }
+    ],
+    "utensils": [
+      "Petite casserole",
+      "Couteau",
+      "Planche à découper",
+      "Verre doseur",
+      "Fouet",
+      "Spatule"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 portion de sauce — estimation sur 1/4 de la préparation",
+      "calories": "120 kcal",
+      "proteinContent": "2 g",
+      "carbohydrateContent": "4 g",
+      "fatContent": "9 g",
+      "fiberContent": "0 g",
+      "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "P11 — Crème curry-curcuma",
+    "description": "Sauce chaude superfood, crémeuse mais légère, pour volaille, riz, légumes, patate douce et pois chiches.",
+    "author": {
+      "@type": "Person",
+      "name": "Carl Kitchen"
+    },
+    "recipeCuisine": "Carl Kitchen",
+    "recipeCategory": "Préparation — Sauce chaude superfood",
+    "keywords": "Carl Kitchen, Préparation, Sauce, Curry, Curcuma, Superfood, Sauce chaude superfood, Ustensiles inclus, Nutrition estimée",
+    "recipeYield": "4 portions de sauce",
+    "prepTime": "PT5M",
+    "cookTime": "PT5M",
+    "totalTime": "PT10M",
+    "recipeIngredient": [
+      "200 ml de crème légère ou 150 g de yaourt grec",
+      "1 cuillère à café de P05 — Mix Curry Curcuma",
+      "1 petite gousse d’ail râpée",
+      "1 cuillère à café de jus de citron",
+      "Sel",
+      "Poivre",
+      "Coriandre fraîche, facultatif"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+        "text": "Catégorie : Préparation — Sauce chaude superfood\nUstensiles : Bol ou petite casserole, Fouet, Râpe fine ou presse-ail, Cuillère doseuse, Boîte hermétique\nNutrition estimée par portion : 1 portion de sauce — estimation sur 1/4 de la préparation — 90 kcal, protéines 3 g, glucides 3 g, lipides 6 g, fibres 0 g.\nNote Carl Kitchen : Sauce curcuma-curry douce, utile pour donner une signature superfood aux plats."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Chauffer doucement la crème ou le yaourt à feu doux."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Ajouter le mix curry-curcuma et l’ail."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Mélanger sans faire bouillir fort."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Assaisonner avec sel, poivre et citron."
+      },
+      {
+        "@type": "HowToStep",
+        "text": "Finir avec coriandre fraîche si disponible."
+      }
+    ],
+    "category": "Préparation — Sauce chaude superfood",
+    "tool": [
+      {
+        "@type": "HowToTool",
+        "name": "Bol ou petite casserole"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Fouet"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Râpe fine ou presse-ail"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Cuillère doseuse"
+      },
+      {
+        "@type": "HowToTool",
+        "name": "Boîte hermétique"
+      }
+    ],
+    "utensils": [
+      "Bol ou petite casserole",
+      "Fouet",
+      "Râpe fine ou presse-ail",
+      "Cuillère doseuse",
+      "Boîte hermétique"
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "servingSize": "1 portion de sauce — estimation sur 1/4 de la préparation",
+      "calories": "90 kcal",
+      "proteinContent": "3 g",
+      "carbohydrateContent": "3 g",
+      "fatContent": "6 g",
+      "fiberContent": "0 g",
+      "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+    }
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "P08 — Mix Citron-Herbes",
+  "description": "Mélange frais pour transformer une base poulet ou légumes en assiette méditerranéenne.",
+  "author": {
+    "@type": "Person",
+    "name": "Carl Kitchen"
+  },
+  "recipeCuisine": "Carl Kitchen",
+  "recipeCategory": "Préparation — Mélange d’épices",
+  "keywords": "Carl Kitchen, Préparation, Mix épices, Citron, Herbes, Mélange d’épices, Ustensiles inclus, Nutrition estimée",
+  "recipeYield": "1 petit pot",
+  "prepTime": "PT5M",
+  "cookTime": "PT0M",
+  "totalTime": "PT5M",
+  "recipeIngredient": [
+    "1 cuillère à soupe de thym",
+    "1 cuillère à soupe d’origan",
+    "1 cuillère à soupe de persil séché",
+    "1 cuillère à café d’ail semoule",
+    "1 cuillère à café de zestes de citron séchés ou zeste frais au moment",
+    "1/2 cuillère à café de poivre"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+      "text": "Catégorie : Préparation — Mélange d’épices\nUstensiles : Cuillères doseuses, Petit bol, Petit fouet ou cuillère, Pot à épices, Étiquette, Râpe fine si zeste frais\nNutrition estimée par portion : 1 cuillère à café de mix — 5 kcal, protéines 0 g, glucides 1 g, lipides 0 g, fibres 1 g.\nNote Carl Kitchen : Profil frais et méditerranéen pour poulet, salade, pommes de terre et légumes."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Mélanger les herbes et l’ail."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Ajouter le zeste frais au dernier moment si possible."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Utiliser avec citron, huile d’olive et poulet grillé."
+    }
+  ],
+  "category": "Préparation — Mélange d’épices",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Cuillères doseuses"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Petit bol"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Petit fouet ou cuillère"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Pot à épices"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Étiquette"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Râpe fine si zeste frais"
+    }
+  ],
+  "utensils": [
+    "Cuillères doseuses",
+    "Petit bol",
+    "Petit fouet ou cuillère",
+    "Pot à épices",
+    "Étiquette",
+    "Râpe fine si zeste frais"
+  ],
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 cuillère à café de mix",
+    "calories": "5 kcal",
+    "proteinContent": "0 g",
+    "carbohydrateContent": "1 g",
+    "fatContent": "0 g",
+    "fiberContent": "1 g",
+    "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+  }
+}

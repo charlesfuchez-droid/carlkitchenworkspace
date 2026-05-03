@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "P06 — Mix Oriental Kefta",
+  "description": "Mélange pour donner une direction kefta / orientale au bœuf, aux légumes ou à la semoule.",
+  "author": {
+    "@type": "Person",
+    "name": "Carl Kitchen"
+  },
+  "recipeCuisine": "Carl Kitchen",
+  "recipeCategory": "Préparation — Mélange d’épices",
+  "keywords": "Carl Kitchen, Préparation, Mix épices, Kefta, Oriental, Mélange d’épices, Ustensiles inclus, Nutrition estimée",
+  "recipeYield": "1 petit pot",
+  "prepTime": "PT5M",
+  "cookTime": "PT0M",
+  "totalTime": "PT5M",
+  "recipeIngredient": [
+    "2 cuillères à café de cumin",
+    "2 cuillères à café de paprika",
+    "1 cuillère à café de coriandre moulue",
+    "1 cuillère à café d’ail semoule",
+    "1 pincée de cannelle",
+    "1/2 cuillère à café de poivre"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+      "text": "Catégorie : Préparation — Mélange d’épices\nUstensiles : Cuillères doseuses, Petit bol, Petit fouet ou cuillère, Pot à épices, Étiquette\nNutrition estimée par portion : 1 cuillère à café de mix — 7 kcal, protéines 0 g, glucides 1 g, lipides 0 g, fibres 1 g.\nNote Carl Kitchen : Transforme le bœuf nature en kefta ou assiette orientale."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Mélanger toutes les épices dans un pot."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Utiliser 1 à 2 cuillères à café pour 200 g de bœuf."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Ajouter persil ou coriandre fraîche au moment de servir."
+    }
+  ],
+  "category": "Préparation — Mélange d’épices",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Cuillères doseuses"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Petit bol"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Petit fouet ou cuillère"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Pot à épices"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Étiquette"
+    }
+  ],
+  "utensils": [
+    "Cuillères doseuses",
+    "Petit bol",
+    "Petit fouet ou cuillère",
+    "Pot à épices",
+    "Étiquette"
+  ],
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 cuillère à café de mix",
+    "calories": "7 kcal",
+    "proteinContent": "0 g",
+    "carbohydrateContent": "1 g",
+    "fatContent": "0 g",
+    "fiberContent": "1 g",
+    "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+  }
+}

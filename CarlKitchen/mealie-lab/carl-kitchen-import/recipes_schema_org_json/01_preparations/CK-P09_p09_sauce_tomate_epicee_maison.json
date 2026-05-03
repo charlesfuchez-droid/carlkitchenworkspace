@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "P09 — Sauce tomate épicée maison",
+  "description": "Base centrale Carl Kitchen : tomate, ail, paprika, curcuma et herbes. Elle sert aux œufs, pâtes, riz, bœuf, volaille et légumes.",
+  "author": {
+    "@type": "Person",
+    "name": "Carl Kitchen"
+  },
+  "recipeCuisine": "Carl Kitchen",
+  "recipeCategory": "Préparation — Sauce chaude signature",
+  "keywords": "Carl Kitchen, Préparation, Sauce, Tomate épicée, Superfood, Sauce chaude signature, Ustensiles inclus, Nutrition estimée",
+  "recipeYield": "1 grand pot / 6 portions",
+  "prepTime": "PT5M",
+  "cookTime": "PT20M",
+  "totalTime": "PT25M",
+  "recipeIngredient": [
+    "800 g de tomates concassées",
+    "1 oignon",
+    "2 gousses d’ail",
+    "2 cuillères à soupe d’huile d’olive",
+    "2 cuillères à café de P07 — Mix Tomate épicée",
+    "1/2 cuillère à café de curcuma",
+    "Sel",
+    "Poivre",
+    "Basilic ou persil"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Infos Mealie — catégorie, ustensiles, nutrition",
+      "text": "Catégorie : Préparation — Sauce chaude signature\nUstensiles : Planche à découper, Couteau, Sauteuse ou casserole, Spatule, Mixeur plongeant facultatif, Bocal ou boîte hermétique\nNutrition estimée par portion : 1 portion de sauce — estimation sur 1/6 du grand pot — 85 kcal, protéines 2 g, glucides 10 g, lipides 5 g, fibres 3 g.\nNote Carl Kitchen : Sauce centrale de la carte : tomate, ail, paprika, curcuma et herbes."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Émincer l’oignon et l’ail."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Faire revenir dans l’huile d’olive 3 à 4 min sans brûler l’ail."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Ajouter les tomates concassées, le mix tomate épicée, le curcuma, sel et poivre."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Laisser mijoter 15 à 20 min à feu moyen."
+    },
+    {
+      "@type": "HowToStep",
+      "text": "Finir avec basilic ou persil. Garder une texture nappante."
+    }
+  ],
+  "category": "Préparation — Sauce chaude signature",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Planche à découper"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Couteau"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Sauteuse ou casserole"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Spatule"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Mixeur plongeant facultatif"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Bocal ou boîte hermétique"
+    }
+  ],
+  "utensils": [
+    "Planche à découper",
+    "Couteau",
+    "Sauteuse ou casserole",
+    "Spatule",
+    "Mixeur plongeant facultatif",
+    "Bocal ou boîte hermétique"
+  ],
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "servingSize": "1 portion de sauce — estimation sur 1/6 du grand pot",
+    "calories": "85 kcal",
+    "proteinContent": "2 g",
+    "carbohydrateContent": "10 g",
+    "fatContent": "5 g",
+    "fiberContent": "3 g",
+    "description": "Estimation par portion de préparation. Les valeurs varient selon les marques, le grammage réel et le choix crème légère / yaourt / céréales."
+  }
+}
